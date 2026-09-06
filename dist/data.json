@@ -164,6 +164,11 @@
     "p": "/bc",
     "d": "算术操作精密运算工具"
   },
+  "beep": {
+    "n": "beep",
+    "p": "/beep",
+    "d": "用于控制 PC 扬声器发出蜂鸣声的命令行工具。"
+  },
   "bg": {
     "n": "bg",
     "p": "/bg",
@@ -183,11 +188,6 @@
     "n": "blockdev",
     "p": "/blockdev",
     "d": "从命令行调用区块设备控制程序"
-  },
-  "bmodinfo": {
-    "n": "bmodinfo",
-    "p": "/bmodinfo",
-    "d": "显示给定模块的详细信息"
   },
   "break": {
     "n": "break",
@@ -363,6 +363,11 @@
     "n": "colrm",
     "p": "/colrm",
     "d": "删除文件中的指定列"
+  },
+  "column": {
+    "n": "column",
+    "p": "/column",
+    "d": "按列格式化输出文件"
   },
   "comm": {
     "n": "comm",
@@ -754,6 +759,11 @@
     "p": "/fgrep",
     "d": "为文件搜索文字字符串"
   },
+  "figlet": {
+    "n": "figlet",
+    "p": "/figlet",
+    "d": "字符串转为 “字画符”。"
+  },
   "file": {
     "n": "file",
     "p": "/file",
@@ -859,6 +869,11 @@
     "p": "/get_module",
     "d": "获取Linux内核模块的详细信息"
   },
+  "getcap": {
+    "n": "getcap",
+    "p": "/getcap",
+    "d": "显示文件的能力（capabilities）"
+  },
   "getenforce": {
     "n": "getenforce",
     "p": "/getenforce",
@@ -868,6 +883,11 @@
     "n": "getent",
     "p": "/getent",
     "d": "查询 DNS 名称服务器中的命名空间"
+  },
+  "getfacl": {
+    "n": "getfacl",
+    "p": "/getfacl",
+    "d": "获取文件访问控制列表(access control lists)"
   },
   "getsebool": {
     "n": "getsebool",
@@ -883,6 +903,11 @@
     "n": "gpasswd",
     "p": "/gpasswd",
     "d": "Linux下工作组文件的管理工具"
+  },
+  "gpg": {
+    "n": "gpg",
+    "p": "/gpg",
+    "d": "可用于签名、检查、加密或解密的工具"
   },
   "gpm": {
     "n": "gpm",
@@ -912,7 +937,7 @@
   "groupmod": {
     "n": "groupmod",
     "p": "/groupmod",
-    "d": "更改群组识别码或名称"
+    "d": "修改系统上的组定义"
   },
   "groups": {
     "n": "groups",
@@ -968,6 +993,11 @@
     "n": "halt",
     "p": "/halt",
     "d": "关闭正在运行的Linux操作系统"
+  },
+  "hcitool": {
+    "n": "hcitool",
+    "p": "/hcitool",
+    "d": "hcitool是一个Linux命令行工具，用于管理和调试蓝牙设备。它可以用于扫描周围的蓝牙设备、连接到蓝牙设备发送命令和数据包等。"
   },
   "hdparm": {
     "n": "hdparm",
@@ -1184,6 +1214,11 @@
     "p": "/iptstate",
     "d": "显示iptables的工作状态"
   },
+  "iscsiadm": {
+    "n": "iscsiadm",
+    "p": "/iscsiadm",
+    "d": "管理iSCSI连接"
+  },
   "ispell": {
     "n": "ispell",
     "p": "/ispell",
@@ -1212,7 +1247,7 @@
   "journalctl": {
     "n": "journalctl",
     "p": "/journalctl",
-    "d": "检索 systemd 日志，是 CentOS 7 才有的工具。"
+    "d": "检索 systemd 日志，只要使用 systemd 的 Linux 发行版（如 Fedora、Ubuntu Modern、Debian、SUSE、Arch），几乎都会配备 journalctl。"
   },
   "jq": {
     "n": "jq",
@@ -1243,6 +1278,11 @@
     "n": "killall",
     "p": "/killall",
     "d": "使用进程的名称来杀死一组进程"
+  },
+  "l2ping": {
+    "n": "l2ping",
+    "p": "/l2ping",
+    "d": "收发 L2CAP 回显请求，用于检查与目标蓝牙设备的连通性。"
   },
   "last": {
     "n": "last",
@@ -1594,6 +1634,11 @@
     "p": "/modetest",
     "d": "DRM/KMS驱动程序libdrm中的模式测试工具"
   },
+  "modinfo": {
+    "n": "modinfo",
+    "p": "/modinfo",
+    "d": "显示给定模块的详细信息"
+  },
   "modprobe": {
     "n": "modprobe",
     "p": "/modprobe",
@@ -1618,6 +1663,11 @@
     "n": "mtools",
     "p": "/mtools",
     "d": "显示mtools支持的指令"
+  },
+  "mtr": {
+    "n": "mtr",
+    "p": "/mtr",
+    "d": "`mtr` 结合了 `traceroute` 和 `ping` 程序的功能，是一款简单的网络诊断工具"
   },
   "mv": {
     "n": "mv",
@@ -1652,7 +1702,7 @@
   "named-checkzone": {
     "n": "named-checkzone",
     "p": "/named-checkzone",
-    "d": "使用named-checkzone命令可以进行区域文件有效性检查和转换，必须指定区域名称和区域文件名称"
+    "d": "使用 named-checkzone 可验证并转换区域文件，需指定区域名和文件名。"
   },
   "nano": {
     "n": "nano",
@@ -1663,6 +1713,11 @@
     "n": "nc",
     "p": "/nc",
     "d": "nc是网络工具中的瑞士军刀"
+  },
+  "ncdu": {
+    "n": "ncdu",
+    "p": "/ncdu",
+    "d": "磁盘使用情况的交互式查看工具，可视为 du 的增强版本"
   },
   "ncftp": {
     "n": "ncftp",
@@ -1729,6 +1784,11 @@
     "p": "/nmcli",
     "d": "地址配置工具"
   },
+  "nmtui": {
+    "n": "nmtui",
+    "p": "/nmtui",
+    "d": "基于文本的用户界面（TUI），用于控制和配置 NetworkManager。"
+  },
   "nohup": {
     "n": "nohup",
     "p": "/nohup",
@@ -1748,6 +1808,11 @@
     "n": "nslookup",
     "p": "/nslookup",
     "d": "查询域名DNS信息的工具"
+  },
+  "nstat": {
+    "n": "nstat",
+    "p": "/nstat",
+    "d": "nstat 是一个简单的监视内核的 SNMP 计数器和网络接口状态的实用工具。"
   },
   "ntpdate": {
     "n": "ntpdate",
@@ -1858,6 +1923,11 @@
     "n": "ping6",
     "p": "/ping6",
     "d": "测试主机之间网络的连通性(ipv6)"
+  },
+  "pip": {
+    "n": "pip",
+    "p": "/pip",
+    "d": "Python 编程语言中的包管理器，用于安装和管理第三方 Python 模块"
   },
   "pkexec": {
     "n": "pkexec",
@@ -2043,6 +2113,11 @@
     "n": "readonly",
     "p": "/readonly",
     "d": "标记shell变量或函数为只读"
+  },
+  "realpath": {
+    "n": "realpath",
+    "p": "/realpath",
+    "d": "解析并规范化文件路径，返回绝对路径。"
   },
   "reboot": {
     "n": "reboot",
@@ -2349,6 +2424,11 @@
     "p": "/sort",
     "d": "对文本文件中所有行进行排序。"
   },
+  "sosreport": {
+    "n": "sosreport",
+    "p": "/sosreport",
+    "d": "收集系统配置和诊断信息"
+  },
   "source": {
     "n": "source",
     "p": "/source",
@@ -2653,6 +2733,11 @@
     "n": "type",
     "p": "/type",
     "d": "显示指定命令的类型。"
+  },
+  "ufw": {
+    "n": "ufw",
+    "p": "/ufw",
+    "d": "  ubuntu防火墙管理工具"
   },
   "ulimit": {
     "n": "ulimit",
